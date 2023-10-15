@@ -8,24 +8,6 @@ body{
   margin: 0;
   font-family: 'Montserrat', sans-serif;
 }
-.social_media_links{
-  display: flex;
-}
-
-
-.person_links{
-  margin-right: -5px;
-
-  padding: 10px 20px;
-  transition: transform 0.2s;
-
-  font-size: 30px;
-  color: #000;
-}
-
-.person_links:hover{
-  transform: scale(1.1);
-}
 
 .person{
   min-height: 100vh;
@@ -47,6 +29,13 @@ body{
   grid-gap: 20px;
 }
 
+.person_about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
 .name{
   margin-bottom: -10px;
   font-size: 48px;
@@ -58,11 +47,22 @@ body{
   font-weight: 400;
 }
 
-.person_about {
+.social_media_links{
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+}
 
+.person_links{
+  margin-right: -5px;
+
+  padding: 10px 20px;
+  transition: transform 0.2s;
+
+  font-size: 30px;
+  color: #000;
+}
+
+.person_links:hover{
+  transform: scale(1.1);
 }
 
 .person_description{
@@ -75,4 +75,36 @@ body{
   margin-top: -5px;
   font-size: 16px;
   font-weight: 400;
+}
+
+@media screen and (max-width: 978px) {
+  .person {
+    padding-top: 30px;
+  }
+
+  .person_container {
+    grid-row-gap: 20px;
+  }
+
+  .name {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+  .life_status {
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .person_description {
+    font-size: 14px;
+  }
+
+  .person_about {
+    text-align: center;
+  }
+
+  .social_media_links {
+    justify-content: center;
+  }
 }

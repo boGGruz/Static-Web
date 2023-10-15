@@ -3,12 +3,30 @@
 ::after{
   box-sizing: border-box;
 }
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> 756cdb72878e8700c34c89d6611c12ff1de62ed6
 body{
   margin: 0;
   font-family: 'Montserrat', sans-serif;
 }
 
+<<<<<<< HEAD
+=======
+.social_media_links{
+  display: flex;
+}
+
+.person_links{
+  margin-right: 10px;
+
+  font-size: 30px;
+  color: #000;
+}
+
+>>>>>>> 756cdb72878e8700c34c89d6611c12ff1de62ed6
 .person{
   min-height: 100vh;
   display: flex;
@@ -16,6 +34,7 @@ body{
   align-items: center;
 }
 
+<<<<<<< HEAD
 .container {
   max-width: 1230px;
   width: 100%;
@@ -38,6 +57,10 @@ body{
 
 .name{
   margin-bottom: -10px;
+=======
+.name{
+  margin-bottom: 20px;
+>>>>>>> 756cdb72878e8700c34c89d6611c12ff1de62ed6
   font-size: 48px;
   line-height: 1.1;
 }
@@ -45,6 +68,7 @@ body{
 .life_status{
   font-size: 32px;
   font-weight: 400;
+<<<<<<< HEAD
 }
 
 .social_media_links{
@@ -107,4 +131,6 @@ body{
   .social_media_links {
     justify-content: center;
   }
+=======
+>>>>>>> 756cdb72878e8700c34c89d6611c12ff1de62ed6
 }

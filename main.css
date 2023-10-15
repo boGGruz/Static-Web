@@ -8,17 +8,23 @@ body{
   margin: 0;
   font-family: 'Montserrat', sans-serif;
 }
- 
 .social_media_links{
   display: flex;
 }
 
 
 .person_links{
-  margin-right: 10px;
+  margin-right: -5px;
+
+  padding: 10px 20px;
+  transition: transform 0.2s;
 
   font-size: 30px;
   color: #000;
+}
+
+.person_links:hover{
+  transform: scale(1.1);
 }
 
 .person{
@@ -28,13 +34,45 @@ body{
   align-items: center;
 }
 
+.container {
+  max-width: 1230px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.person_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax( 290px,1fr));
+  grid-gap: 20px;
+}
+
 .name{
-  margin-bottom: 20px;
+  margin-bottom: -10px;
   font-size: 48px;
   line-height: 1.1;
 }
 
 .life_status{
   font-size: 32px;
+  font-weight: 400;
+}
+
+.person_about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.person_description{
+  margin-top: -5px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.mail{
+  margin-top: -5px;
+  font-size: 16px;
   font-weight: 400;
 }

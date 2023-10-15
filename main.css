@@ -1,0 +1,40 @@
+*,
+::before,
+::after{
+  box-sizing: border-box;
+}
+ 
+body{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+ 
+.social_media_links{
+  display: flex;
+}
+
+
+.person_links{
+  margin-right: 10px;
+
+  font-size: 30px;
+  color: #000;
+}
+
+.person{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name{
+  margin-bottom: 20px;
+  font-size: 48px;
+  line-height: 1.1;
+}
+
+.life_status{
+  font-size: 32px;
+  font-weight: 400;
+}

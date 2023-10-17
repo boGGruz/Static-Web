@@ -3,134 +3,85 @@
 ::after{
   box-sizing: border-box;
 }
-<<<<<<< HEAD
  
-=======
-
->>>>>>> 756cdb72878e8700c34c89d6611c12ff1de62ed6
 body{
   margin: 0;
   font-family: 'Montserrat', sans-serif;
 }
 
-<<<<<<< HEAD
-=======
+.person_box-img{
+  position: absolute;
+  right: 100px;
+  top: 165px;
+  transition: transform 0.3s;
+}
+.person_box-img:hover{
+  transform: scale(1.1);
+}
+
+.image_container{
+  position: absolute;
+  left: 100px;
+  top: 165px;
+  transition: transform 0.3s;
+}
+.image_container:hover{
+  transform: scale(1.1);
+}
+
+.image_container1{
+  position: absolute;
+  left: 600px;
+  top: 165px;
+  transition: transform 0.3s;
+}
+.image_container1:hover{
+  transform: scale(1.1);
+}
+
+.text_container{
+  position: absolute;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  top: 110px;
+  left: 20px;
+}
+
+.text_container1{
+  position: absolute; 
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  top: 60px;
+  left: 37px;
+}
+
+.mail{
+  position: absolute; 
+  font-size: 14px;
+  font-weight: 600;
+  text-align: justify;
+  top: 120px;
+  left: 37px;
+}
+
 .social_media_links{
+  position: absolute;
+  top: 200px;
+  left: 37px;
   display: flex;
 }
 
 .person_links{
-  margin-right: 10px;
-
+  margin-right: 33px;
   font-size: 30px;
   color: #000;
-}
-
->>>>>>> 756cdb72878e8700c34c89d6611c12ff1de62ed6
-.person{
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-<<<<<<< HEAD
-.container {
-  max-width: 1230px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
-.person_container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax( 290px,1fr));
-  grid-gap: 20px;
-}
-
-.person_about {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-}
-
-.name{
-  margin-bottom: -10px;
-=======
-.name{
-  margin-bottom: 20px;
->>>>>>> 756cdb72878e8700c34c89d6611c12ff1de62ed6
-  font-size: 48px;
-  line-height: 1.1;
-}
-
-.life_status{
-  font-size: 32px;
-  font-weight: 400;
-<<<<<<< HEAD
-}
-
-.social_media_links{
-  display: flex;
-}
-
-.person_links{
-  margin-right: -5px;
-
-  padding: 10px 20px;
   transition: transform 0.2s;
-
-  font-size: 30px;
-  color: #000;
 }
-
 .person_links:hover{
   transform: scale(1.1);
 }
 
-.person_description{
-  margin-top: -5px;
-  font-size: 16px;
-  font-weight: 400;
-}
 
-.mail{
-  margin-top: -5px;
-  font-size: 16px;
-  font-weight: 400;
-}
 
-@media screen and (max-width: 978px) {
-  .person {
-    padding-top: 30px;
-  }
-
-  .person_container {
-    grid-row-gap: 20px;
-  }
-
-  .name {
-    font-size: 28px;
-    margin-bottom: 10px;
-  }
-
-  .life_status {
-    font-size: 22px;
-    font-weight: 400;
-  }
-
-  .person_description {
-    font-size: 14px;
-  }
-
-  .person_about {
-    text-align: center;
-  }
-
-  .social_media_links {
-    justify-content: center;
-  }
-=======
->>>>>>> 756cdb72878e8700c34c89d6611c12ff1de62ed6
-}

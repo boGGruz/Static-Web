@@ -1,0 +1,99 @@
+*,
+::before,
+::after{
+  box-sizing: border-box;
+}
+ 
+
+body{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url('image/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.person_box-img{
+  width: 20vw;
+  height: 25vw;
+  position: absolute;
+  right: 5%;
+  top: 25%;
+}
+
+
+.image_container{
+  width: 20vw;
+  height: 25vw;
+  position: absolute;
+  left: 5%;
+  top: 25%;
+}
+
+
+.image_container1{
+  width: 20vw;
+  height: 25vw;
+  position: absolute;
+  left: 40%;
+  top: 25%;
+}
+
+.text_container{
+  position: absolute;
+  font-family: "B52";
+  font-size: 1vw;
+  font-weight: 600;
+  text-align: center;
+  top: 35%;
+  left: 7%;
+}
+
+.text_container1{
+  position: absolute; 
+  font-family: "B52";
+  font-size: 1vw;
+  font-weight: 600;
+  text-align: center;
+  top: 35%;
+  left: 42%;
+}
+
+.mail{
+  position: absolute; 
+  font-family: "B52";
+  font-size: 1vw;
+  font-weight: 600;
+  text-align: justify;
+  top: 45%;
+  left: 42%;
+}
+
+.social_media_links{
+  position: absolute;
+  top: 55%;
+  left: 42.5%;
+  display: flex;
+}
+
+.person_links{
+  margin-right: 2vw;
+  font-size: 2.1vw;
+  color: #000;
+  transition: transform 0.2s;
+}
+.person_links:hover{
+  transform: scale(1.1);
+}
+
+@font-face {
+  font-family: "B52"; 
+  src: url("../static/B52.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+}
+

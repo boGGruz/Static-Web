@@ -7,5 +7,5 @@
 ## Технологии
 - [HTML|CSS](https://htmlbook.ru/)
 
-## Сайт: boggruz.ru
+Сайт:https://boggruz.ru/
 
